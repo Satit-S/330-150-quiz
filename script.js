@@ -642,7 +642,7 @@ function checkAnswer(selectedChoice, correctAnswer, category) {
     setTimeout(() => {
         currentQuestionIndex++;
         showQuestion();
-    }, 5000);
+    }, 6000);
 }
 
 // ฟังก์ชันสำหรับแสดงผลลัพธ์
@@ -672,4 +672,5 @@ function showResults() {
 
 // เริ่มต้นโปรแกรม
 shuffleQuestions(questions); // สุ่มลำดับคำถามทั้งหมด
+
 showQuestion();
