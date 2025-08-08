@@ -642,7 +642,7 @@ function checkAnswer(selectedChoice, correctAnswer, category) {
     setTimeout(() => {
         currentQuestionIndex++;
         showQuestion();
-    }, 2000);
+    }, 5000);
 }
 
 // ฟังก์ชันสำหรับแสดงผลลัพธ์
